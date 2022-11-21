@@ -6,14 +6,13 @@ import {
   AiOutlineSearch,
   AiOutlineUser,
 } from "react-icons/ai";
-import Logo from "../../images/logo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   return (
     <header className={styles.navbar}>
-      <img width={"80px"} src={Logo} alt="#" />
+      <h2>DRIVE</h2>
       <nav>
         <ul
           className={

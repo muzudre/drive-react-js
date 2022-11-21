@@ -24,3 +24,102 @@ form label {
   font-size: 0.8rem;
   padding-bottom: 2px;
 }
+
+.text,
+.from,
+.until {
+  display: flex;
+  flex-direction: column;
+}
+
+.from,
+.until {
+  border-left: 1px solid #333;
+  font-size: 1rem;
+  padding-left: 6px;
+}
+
+form input {
+  background-color: transparent;
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
+
+form .input_text {
+  width: 300px;
+  font-size: 1rem;
+}
+
+form input:focus {
+  outline: none;
+}
+
+.search_btn {
+  display: flex;
+  align-items: center;
+}
+
+.search_btn button {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: auto 1rem;
+  }
+  .text,
+  .from,
+  .until {
+    width: 100%;
+    padding: 0.2rem;
+  }
+  .from,
+  .until {
+    border-left: none;
+  }
+
+  .input_text {
+    font-size: 0.8rem;
+  }
+
+  .border {
+    border-top: 1px solid #333;
+    padding: 8px;
+  }
+
+  form label {
+    padding: 0.4rem 0;
+  }
+
+  .search_btn {
+    width: 100%;
+    border-top: 1px solid #333;
+    padding: 8px 0;
+  }
+
+  .search_btn .btn {
+    display: block;
+    background-color: #593cfb;
+    color: #fff;
+    width: 100%;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 12px;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .search_btn .btn:hover {
+    background-color: #4733b7;
+    transition: background-color 1s;
+  }
+
+  .icon {
+    display: none;
+  }
+}
