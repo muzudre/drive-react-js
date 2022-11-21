@@ -5,7 +5,9 @@ const Footer = () => {
   return (
     <div className={styles.footer}>
       <div className={styles.container}>
-        <h2 className={styles.logo}>DRIVE</h2>
+        <h2 className={styles.logo}>
+          <span style={{ color: "#593cfb" }}>D</span>RIVE
+        </h2>
         <button>Get Car</button>
       </div>
     </div>

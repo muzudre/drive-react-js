@@ -13,6 +13,12 @@
   text-align: center;
 }
 
+.heading h2 {
+  font-size: 4rem;
+  text-align: center;
+  padding: 2rem;
+}
+
 .text_bg {
   background-color: #593cfb5e;
   height: 30px;
@@ -44,8 +50,17 @@
   border-top-left-radius: 10px;
   height: 200px;
   object-fit: cover;
+  background: linear-gradient(45deg, #593cfb, transparent);
 }
 
 .card p {
-  margin-left: 0.5rem;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .heading h2 {
+    font-size: 3rem;
+  }
 }

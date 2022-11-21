@@ -45,39 +45,53 @@ const Find = () => {
           <SwiperSlide>
             <Card
               image={
-                "https://images.unsplash.com/photo-1536383794906-773f6a5210be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80"
+                "https://www.freeiconspng.com/uploads/land-rover-range-rover-car-png-25.png"
               }
+              make="Rand Rover"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Card
+              image={
+                "https://www.freeiconspng.com/uploads/audi-jeep-q3-car-png-7.png"
+              }
+              make="Audi Jeep"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Card
+              image={
+                "https://www.freeiconspng.com/uploads/volkswagen-car-png-image-7.png"
+              }
+              make="Volkswagen"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Card
+              image={
+                "https://www.freeiconspng.com/uploads/red-hyundai-car-png-15.png"
+              }
+              make="Red Hyundai"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Card
+              image={"https://www.freeiconspng.com/uploads/car-png-27.png"}
               make="Audi"
             />
           </SwiperSlide>
           <SwiperSlide>
             <Card
               image={
-                "https://images.unsplash.com/photo-1536383794906-773f6a5210be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80"
+                "https://www.freeiconspng.com/uploads/black-cool-bmw-car-png-19.png"
               }
-              make="Audi"
+              make="BMW"
             />
           </SwiperSlide>
           <SwiperSlide>
             <Card
               image={
-                "https://images.unsplash.com/photo-1536383794906-773f6a5210be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80"
-              }
-              make="Audi"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Card
-              image={
-                "https://images.unsplash.com/photo-1536383794906-773f6a5210be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80"
-              }
-              make="Audi"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Card
-              image={
-                "https://images.unsplash.com/photo-1536383794906-773f6a5210be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80"
+                "https://www.freeiconspng.com/uploads/yellow-car-png-26.png"
               }
               make="Audi"
             />

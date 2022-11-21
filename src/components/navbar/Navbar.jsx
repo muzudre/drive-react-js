@@ -12,7 +12,9 @@ const Navbar = () => {
 
   return (
     <header className={styles.navbar}>
-      <h2>DRIVE</h2>
+      <h2>
+        <span style={{ color: "#593cfb" }}>D</span>RIVE
+      </h2>
       <nav>
         <ul
           className={
